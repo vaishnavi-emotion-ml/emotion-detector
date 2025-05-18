@@ -50,7 +50,7 @@ more_data = {
         "love", "love", "love"
     ]
 }
-
+df = pd.DataFrame(more_data)
 
 extra_df = pd.DataFrame(more_data)
 df = pd.concat([df, extra_df], ignore_index=True)
